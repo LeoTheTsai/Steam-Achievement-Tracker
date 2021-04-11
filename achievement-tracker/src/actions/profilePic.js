@@ -33,13 +33,13 @@ export const getImage = async (userName, Comp) => {
             if (res.status === 200) {
                 return res.json()
             } else {
-                console.log("Cannot get Profile Images")
+                //console.log("Cannot get Profile Images")
             }
         })
         .then(json => {
             Comp.setState({ image: json.image })
         })
         .catch(error => {
-            console.log(error);
+            //console.log(error);
         });
 }

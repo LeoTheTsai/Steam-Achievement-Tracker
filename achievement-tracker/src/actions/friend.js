@@ -16,7 +16,7 @@ export const getFriend = (friendList) => {
                 // return a promise that resolves with the JSON body
                 return res.json();
             } else {
-                console.log("Could not get friendList");
+                //console.log("Could not get friendList");
             }
         })
         .then(json => {
@@ -31,7 +31,7 @@ export const getFriend = (friendList) => {
             friendList.setState({ friendList: list });
         })
         .catch(error => {
-            console.log(error);
+            //console.log(error);
         });
 };
 
