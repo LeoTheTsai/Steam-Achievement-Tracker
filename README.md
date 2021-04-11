@@ -17,10 +17,10 @@ Further instructions can be found below.
 - [Administrator page](#admin-page)
 
 ## Starting the app
-1. Clone the app: `git clone git@github.com:csc309-winter-2021/team29.git` or  
-`git clone https://github.com/csc309-winter-2021/team29.git`
+1. Clone the app: `git clone git@github.com:LeoTheTsai/Steam-Achievement-Tracker.git` or  
+`https://github.com/LeoTheTsai/Steam-Achievement-Tracker.git`
 
-2. From the root directory(`team29`), simply run `bash start.sh`. This will cd into the directory and run `npm install` and `npm start`.
+2. From the root directory(`Steam-Achievement-Tracker`), simply run `bash start.sh`. This will cd into the directory and run `npm install` and `npm start`.
 
 3. You should be able to open the webpage in a browser window by entering `localhost:5000` in the URL bar. We have tested the webpage on a fully-maximized browser window in Google Chrome.
 
