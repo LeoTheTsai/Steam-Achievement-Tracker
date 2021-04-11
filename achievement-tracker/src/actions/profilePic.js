@@ -33,7 +33,7 @@ export const getImage = async (userName, Comp) => {
             if (res.status === 200) {
                 return res.json()
             } else {
-                alert("Cannot get Profile Images")
+                console.log("Cannot get Profile Images")
             }
         })
         .then(json => {

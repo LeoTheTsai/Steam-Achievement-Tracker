@@ -44,14 +44,9 @@ class AccountSettings extends React.Component {
             button.style.borderColor = "#007bff"
         } else {
             document.getElementById(input).className = "hide"
-            this.setState({
-                [input]: document.getElementById(input).value
-            })
             if (input === "passwordInput") {
                 const newPassword = document.getElementById(input).value
-                console.log(newPassword)
                 changePassword(newPassword)
-                this.setState({ passwordHidden: false })
             }
             let button = document.getElementById(input).parentElement.lastChild
             button.innerHTML = "Edit"

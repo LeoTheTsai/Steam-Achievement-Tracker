@@ -16,7 +16,7 @@ export const getFriend = (friendList) => {
                 // return a promise that resolves with the JSON body
                 return res.json();
             } else {
-                alert("Could not get friendList");
+                console.log("Could not get friendList");
             }
         })
         .then(json => {
