@@ -2,6 +2,8 @@
 
 Our web application is deployed at -> [https://achievements-tracker-steam.herokuapp.com/](https://achievements-tracker-steam.herokuapp.com/)
 
+Current supported browser: Chrome
+
 Further instructions can be found below.
 
 ## Quick Navigation
